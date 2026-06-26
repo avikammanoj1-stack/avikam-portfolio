@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@300;400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", "Inter", sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+@layer utilities {
+  /* Hide scrollbars but keep functionality */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+/* Custom Print styles for CV sheet */
+@media print {
+  body {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+  }
+  
+  /* Hide all root container components and layers on the page */
+  #app-root-container > *,
+  #navbar,
+  #hero-container,
+  #main-content-flow,
+  footer {
+    display: none !important;
+  }
+  
+  /* Reset modal styles for printing as a clean single-page executive sheet */
+  #resume-modal {
+    position: static !important;
+    background: transparent !important;
+    padding: 0 !important;
+    border: none !important;
+    box-shadow: none !important;
+    backdrop-filter: none !important;
+    height: auto !important;
+    overflow: visible !important;
+  }
+  
+  #resume-modal > div {
+    border: none !important;
+    box-shadow: none !important;
+    max-width: 100% !important;
+    height: auto !important;
+    background: transparent !important;
+    padding: 0 !important;
+    border-radius: 0 !important;
+  }
+  
+  #resume-printable-content {
+    padding: 0 !important;
+    overflow: visible !important;
+  }
+  
+  .print\:hidden {
+    display: none !important;
+  }
+}
