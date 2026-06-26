@@ -1,0 +1,15 @@
+{
+  "short_name": "Avikam Portfolio",
+  "name": "Avikam Manoj Portfolio",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#F8F9FB",
+  "theme_color": "#2563EB",
+  "display": "standalone"
+}
