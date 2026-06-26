@@ -30,8 +30,7 @@ A modern, responsive developer portfolio showcasing my projects, skills, certifi
 - Gesture Classifier
 
 ## 🌐 Live Demo
-
-Coming Soon
+(https://avikam-portfolio.vercel.app/)
 
 ## 📧 Contact
 
