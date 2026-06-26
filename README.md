@@ -1,20 +1,42 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# 🚀 Avikam Manoj - Portfolio
 
-# Run and deploy your AI Studio app
+A modern, responsive developer portfolio showcasing my projects, skills, certifications, and experience in Software Engineering, Artificial Intelligence, and Data Science.
 
-This contains everything you need to run your app locally.
+## ✨ Features
 
-View your app in AI Studio: https://ai.studio/apps/6a7aaef8-e528-4e5f-914c-8b8c4a92c724
+- Modern responsive UI
+- Dark / Light mode
+- Smooth animations
+- Project showcase
+- Experience timeline
+- Certificates section
+- Contact form
+- Mobile friendly
 
-## Run Locally
+## 🛠 Tech Stack
 
-**Prerequisites:**  Node.js
+- React
+- Vite
+- Tailwind CSS
+- Framer Motion
+- React Icons
 
+## 📂 Projects Featured
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+- EchoNote
+- Employee Management System
+- Student Performance Predictor
+- CNTRL-M AI Grammar Calibrator
+- Gesture Classifier
+
+## 🌐 Live Demo
+
+Coming Soon
+
+## 📧 Contact
+
+LinkedIn:
+https://www.linkedin.com/in/avikam-manoj-world1822
+
+GitHub:
+https://github.com/avikammanoj1-stack
